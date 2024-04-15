@@ -1,0 +1,71 @@
+.section {
+    display: flex;
+    padding: 60px 90px;
+    height: 50%;
+    width: 100%;
+
+
+}
+
+.left-section {
+    background-color: #352820;
+    color: white;
+    width: 30%;
+    height: auto;
+    padding: 30px;
+}
+
+
+
+.right-section {
+    width: 70%;
+    height: auto;
+}
+
+@media screen and (max-width:768px) {
+    .section {
+        display: block;
+
+    }
+
+    .left-section {
+        width: auto;
+        height: 30%;
+
+    }
+
+    .right-section {
+        width: auto;
+        height: 70%;
+    }
+}
+
+.left-section h3 {
+    font-size: 10px;
+
+}
+
+.left-section h1 {
+    font-size: 30px;
+}
+
+.left-section p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.left-section button {
+    padding: 5px 10px;
+    font-size: 10px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    border-radius: 3rem;
+
+}
+
+.left-section button:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
