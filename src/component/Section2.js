@@ -7,7 +7,7 @@ const Section2 = () => {
     <div className="section2">
       <h1>Recent Mental Health Articles</h1>
       <div className="section2-card">
-        <Card />
+        <Card imgSrc={"/images/blog-1.jpg"} imgAlt={"1st-blog"} title={"How to Stay Centered When Life Feels Out of Control"} description={""} />
         <Card />
         <Card />
         <Card />
