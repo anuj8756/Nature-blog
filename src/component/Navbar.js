@@ -1,8 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-import { FaFacebookF, FaTwitter, FaInstagram, FaBars } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 const Navbar = () => {
   const handleNav = () => {
     let c = document.getElementById("phone-nav-ul");
@@ -15,35 +14,34 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar">
+        <div className="nav-icon">
+          <img src="/images/healthLogo.png" alt="" srcset="" />
+        </div>
         <ul className="desktop-ul">
           <li>
             <a href="/hero">Hero</a>
           </li>
           <li>
-            <a href="/section1">Service</a>
+            <a href="/section1">Section1</a>
           </li>
           <li>
-            <a href="/section2">Contact</a>
+            <a href="/section2">Section2</a>
           </li>
         </ul>
-        <div className="nav-icon">
-          <FaFacebookF />
-          <FaInstagram />
-          <FaTwitter />
-        </div>
+
         <div className="phone-nav-menu" onClick={handleNav}>
           <FaBars />
         </div>
         <div className="phone-nav-ul" id="phone-nav-ul" onClick={handleNav}>
           <ul>
             <li>
-              <a href="#about">About</a>
+              <a href="/hero">Hero</a>
             </li>
             <li>
-              <a href="#service">Service</a>
+              <a href="/section1">Section1</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="/section2">Section2</a>
             </li>
           </ul>
         </div>

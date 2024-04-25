@@ -1,6 +1,7 @@
 .banner {
   width: 100%;
   height: 100vh;
+  margin-top: -80px;
 }
 
 .banner img {
@@ -8,7 +9,7 @@
   height: 100%;
   object-fit: cover;
   background-color: black;
-  filter: brightness(50%);
+  filter: brightness(20%);
 }
 
 .banner-text {
@@ -36,11 +37,13 @@
   font-weight: bold;
   font-size: 36px;
   line-height: 80px;
+  color: #86c232;
 }
 
 .banner-content p {
   margin-bottom: 25px;
   line-height: 25px;
+  font-size: 18px;
 }
 
 .banner-content button {
@@ -49,10 +52,13 @@
   outline: none;
   border: none;
   font-weight: 700;
+  background-color: #86c232;
+  color: white;
+  border: 1px solid #86c232;
 }
 
 .banner-content button:hover {
   background-color: transparent;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #86c232;
+  color: #86c232;
 }
