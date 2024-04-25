@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
         <ul className="desktop-ul">
           <li>
-            <a href="/hero">Hero</a>
+            <a href="/hero">Home</a>
           </li>
           <li>
             <a href="/section1">Section1</a>

@@ -12,7 +12,6 @@
 .nav-icon {
   display: flex;
   justify-content: space-between;
-
   margin-left: 20px;
 }
 .nav-icon img {
@@ -20,6 +19,7 @@
   height: 100px;
   object-fit: cover;
   margin-top: -15px;
+  cursor: pointer;
 }
 
 .desktop-ul {

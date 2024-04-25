@@ -12,6 +12,11 @@
 .footer-logo img {
   height: 120px;
   width: 120px;
+  cursor: pointer;
+  transition: 1s;
+}
+.footer-logo img:hover {
+  transform: scale(1.1);
 }
 .footer-content {
   display: flex;

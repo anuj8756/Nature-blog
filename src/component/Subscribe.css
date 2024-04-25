@@ -56,11 +56,17 @@
   position: absolute;
   top: 8px;
   right: 10px;
-  background-color: black;
+  background-color: #86c232;
+  border: 1px solid #86c232;
   color: white;
   cursor: pointer;
   padding: 6px 25px;
   border-radius: 50px;
+}
+.input-bar button:hover {
+  background-color: transparent;
+  color: #86c232;
+  cursor: pointer;
 }
 @media screen and (min-width: 991px) {
   .subscribe {
@@ -82,6 +88,7 @@
     text-align: left;
     width: 430px;
     font-weight: 600;
+    color: #86c232;
   }
   .subscribe-content h1 {
     max-width: 430px;
