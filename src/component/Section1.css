@@ -43,18 +43,18 @@
   color: white;
 }
 
-.left-section button {
+.left-section a {
+  text-decoration: none;
   padding: 10px 30px;
   font-size: 0.9vw;
   font-weight: 400;
-  outline: none;
-  border: none;
+
   border-radius: 2rem;
   background-color: #86c232;
   color: white;
 }
 
-.left-section button:hover {
+.left-section a:hover {
   background-color: transparent;
   color: #86c232;
   border: 1px solid #86c232;

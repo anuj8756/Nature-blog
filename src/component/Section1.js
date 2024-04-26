@@ -15,7 +15,7 @@ const Section1 = () => {
             our lives in the year ahead—all for the benefit of our bodies and
             minds.
           </p>
-          <button type="button">Read More</button>
+          <a href="">Read More</a>
         </div>
         <div className=" col-lg-8 col-md-12 col-sm-12 right-section">
           <Carousel>
