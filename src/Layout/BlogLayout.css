@@ -1,0 +1,22 @@
+.blog-layout-wrapper {
+  height: 100%;
+  width: 100%;
+  max-width: 1170px;
+  padding: 25px;
+  text-align: center;
+}
+.blog-layout-heading {
+  padding: 30px 20px 50px 20px;
+}
+.blog-layout-heading h1 {
+  font-size: 28px;
+}
+.blog-layout-img img {
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  padding-bottom: 50px;
+}
+.blog-layout-content {
+  text-align: justify;
+}

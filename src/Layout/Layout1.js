@@ -15,22 +15,32 @@ const Layout1 = () => {
           alt="banner_image"
         />
         <div className="layout-banner-content">
-          <h1>ABOUT PAGE</h1>
+          <h1> ABOUT US</h1>
         </div>
       </div>
-
       <div className="layout-section1">
         <div className="layout-section1-left">
           <h1 className="layout-section1-heading">Health-Blog</h1>
           <p>
-            HealthBlog is the largest consumer mental health site on the net. We
-            provide authoritative information and support to people with mental
-            health concerns, along with their family members and other loved
-            ones. At HealthBlog, you'll find comprehensive information on
-            psychological disorders. We also have online blogs written by people
-            with lived experience. At HealthBlog, we help bring that to you by
+            <span> Health Blog</span> provide authoritative information and
+            support to people with mental health concerns, along with their
+            family members and other loved ones.
+            <br></br>At <span>Health Blog</span>, you'll find comprehensive
+            information on psychological disorders. We also have online blogs
+            written by people with lived experience.
+            <br></br>At <span> Health Blog</span>, we help bring that to you by
             providing mental health information from experts, as well as
             everyday people who are dealing with psychological disorders.
+            <br></br>Here, at <span>Health Blog</span>, we want you to know you
+            are not alone. One in five Americans has some form of mental illness
+            in any given six months. That means between 30 million and 45
+            million people, possibly your friends, family members and
+            co-workers, suffer from symptoms that cause distress in their lives,
+            but that can be effectively treated.
+            <br></br>
+            <span>Health Blog</span> feel information is a very powerful tool.
+            With the proper information, you can find out what you, a loved one
+            or friend is dealing with, and then make the appropriate choices.
           </p>
         </div>
         <div className="layout-section1-right">
@@ -58,9 +68,29 @@ const Layout1 = () => {
           </p>
         </div>
       </div>
-      <h1 className="layout-section2-heading">We Believe</h1>
+      {/* layout section 2 */}
       <div className="layout-section2">
-        <div>
+        <div className="heading">Our Reach</div>
+        <div className="content">
+          <div className="sub-content">
+            <h1>20 Million</h1>
+            <p>monthly session to main website</p>
+          </div>
+          <div className="sub-content">
+            <h1>22 Million</h1>
+            <p>views on youtube</p>
+          </div>
+          <div className="sub-content">
+            <h1>2.7 Million</h1>
+            <p>followers on social media</p>
+          </div>
+        </div>
+      </div>
+
+      {/* layout section 3 */}
+      <h1 className="layout-section3-heading">We Believe</h1>
+      <div className="layout-section3">
+        <div className="layout-section3-left">
           <ul>
             <li>
               Well-being is a right for all, and we have a responsibility to
@@ -73,34 +103,36 @@ const Layout1 = () => {
             </li>
             <li>
               Wellness is deeply personal and ever evolving: what works at 27
-              may not at 52 and beyond—we’re committed to meeting you wherever
-              you are.
-            </li>
-            <li>
-              That people's relationships with health, health care, and wellness
-              are impacted differently by their race and ethnicity,
-              socioeconomics, gender, sexuality, and ability. As such, we strive
-              to make our content relevant and accessible to as many different
-              kinds of people as possible.
-            </li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li>We can not truly be well if the planet is not.</li>
-            <li>
-              Community care is self care, and we’ll continue to foster ours in
-              all areas, with acknowledgment of when we fall short.
-            </li>
-            <li>Mental health is just as important as physical health.</li>
-            <li>
-              Wellness is always changing, and trend forecasting is core to our
-              DNA.
+              may not at 52 .
             </li>
             <li>
               In a holistic approach to wellness, and that we have a duty to
               acknowledge and amplify the cultural roots of practices and
               rituals that we cover.
+            </li>
+          </ul>
+        </div>
+        <div className="layout-section3-right">
+          <ul>
+            <li>
+              Community care is self care, and we’ll continue to foster ours in
+              all areas, with acknowledgment of when we fall short.
+            </li>
+            <li>We can not truly be well if the planet is not.</li>
+            <li>
+              Wellness is always changing, and trend forecasting is core to our
+              DNA.
+            </li>
+
+            <li>
+              We believe the most important thing in a person's life is "peace
+              of mind".Mental health is just as important as physical health.
+            </li>
+
+            <li>
+              People's relationships with health, health care, and wellness are
+              impacted differently by their race and ethnicity, socioeconomics,
+              gender, sexuality.
             </li>
           </ul>
         </div>
