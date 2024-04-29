@@ -1,25 +1,22 @@
 import React from "react";
-import Navbar from "./component/Navbar";
 import "./App.css";
-import Hero from "./component/Hero";
-import Section1 from "./component/Section1";
-import Section2 from "./component/Section2";
-import Section3 from "./component/Section3";
-import Section4 from "./component/Section4";
-import Footer from "./component/Footer";
-import Subscribe from "./component/Subscribe";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./pages/Main";
+import About from "./pages/About";
+import Section from "./pages/Section";
+import Layout1 from "./Layout/Layout1";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Subscribe />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout1 />}></Route>
+          <Route path="main" element={<Main />}></Route>
+          <Route path="about" element={<About />}></Route>
+          <Route path="section" element={<Section />}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

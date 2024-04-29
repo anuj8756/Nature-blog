@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 import { FaBars } from "react-icons/fa";
 const Navbar = () => {
@@ -19,13 +20,13 @@ const Navbar = () => {
         </div>
         <ul className="desktop-ul">
           <li>
-            <a href="/hero">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/section1">Section1</a>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <a href="/section2">Section2</a>
+            <Link to="/section">Section</Link>
           </li>
         </ul>
 
