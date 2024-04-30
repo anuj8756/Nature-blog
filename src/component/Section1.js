@@ -1,6 +1,7 @@
 import React from "react";
 import "./Section1.css";
 import Carousel from "react-bootstrap/Carousel";
+import { Link } from "react-router-dom";
 
 const Section1 = () => {
   return (
@@ -15,7 +16,7 @@ const Section1 = () => {
             our lives in the year ahead—all for the benefit of our bodies and
             minds.
           </p>
-          <a href="">Read More</a>
+          <Link to="/about">Read More</Link>
         </div>
         <div className=" col-lg-8 col-md-12 col-sm-12 right-section">
           <Carousel>

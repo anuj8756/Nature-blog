@@ -53,3 +53,10 @@
   text-align: center;
   background-color: #6b6e70;
 }
+.card-content a {
+  text-decoration: none;
+  color: white;
+}
+.card-content a:hover {
+  text-decoration: underline;
+}

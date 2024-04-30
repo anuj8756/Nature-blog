@@ -12,18 +12,21 @@ const Section4 = () => {
           imgAlt={"popularBlog1"}
           title={"I'M BIPOLAR TOO"}
           description={"Bipolar Disorder and Ghosting: It's a Big Problem"}
+          blogLink={"/blog5"}
         />
         <Card
           imgSrc={"/images/popularBlog2.jpg"}
           imgAlt={"popularBlog2"}
-          title={"ABOUT SELF INJURY"}
-          description={"What Do Dreams About Self-Harm Mean?"}
+          title={"ABOUT TRAUMA"}
+          description={"Learning to Say No After Trauma?"}
+          blogLink={"/blog6"}
         />
         <Card
           imgSrc={"/images/popularBlog3.jpg"}
           imgAlt={"popularBlog3"}
           title={"DEBUNKING ADDICTION"}
-          description={"Forgiving Yourself for Embarrassing Drunken Behavior"}
+          description={"The Link Between Addiction and Teenage Drinking"}
+          blogLink={"/blog7"}
         />
       </div>
     </div>

@@ -1,7 +1,6 @@
 .blog-layout-wrapper {
   height: 100%;
   width: 100%;
-  max-width: 1170px;
   padding: 25px;
   text-align: center;
 }
@@ -14,9 +13,31 @@
 .blog-layout-img img {
   width: 100%;
   object-fit: cover;
-  position: relative;
   padding-bottom: 50px;
 }
 .blog-layout-content {
   text-align: justify;
+}
+.blog-layout-content h6 {
+  padding-bottom: 20px;
+}
+.blog-layout-content ul {
+  margin-left: -12px;
+}
+@media screen and (min-width: 850px) {
+  .blog-layout-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog-layout-content {
+    max-width: 500px;
+  }
+  .blog-layout-heading {
+    max-width: 700px;
+  }
+  .blog-layout-heading h1 {
+    font-size: 35px;
+  }
 }

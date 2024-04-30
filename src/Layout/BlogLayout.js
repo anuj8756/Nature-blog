@@ -2,60 +2,70 @@ import React from "react";
 import "./BlogLayout.css";
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
-const BlogLayout = () => {
+const BlogLayout = ({
+  MainHeading,
+  imgSrc,
+  imgAlt,
+  SubHeading1,
+  parah1,
+  parah1List1,
+  parah1List2,
+  parah1List3,
+  MainHeading2,
+  imgSrc2,
+  imgAlt2,
+  SubHeading2,
+  parah2List1,
+  parah2List2,
+  parah2List3,
+  parah2List4,
+  parah2List5,
+  parah2List6,
+  parah2List7,
+  parah2List8,
+  parah2List9,
+  parah2List10,
+}) => {
   return (
     <>
       <Navbar />
       <div className="blog-layout-wrapper">
         <div className="blog-layout-heading">
-          <h1>How to Stay Centered When Life Feels Out of Control</h1>
+          <h1>{MainHeading}</h1>
         </div>
         <div className="blog-layout-img">
-          <img src="/images/mentalHealth1.jpg" alt="mentalHealth1" />
+          <img src={imgSrc} alt={imgAlt} />
         </div>
         <div className="blog-layout-content">
-          <h6>
-            It seems like so much in life right now is out of our individual
-            control, which naturally worsens symptoms of mental health
-            challenges. Shifting your focus onto what in your own life you can
-            affect can help ease symptoms of stress, anxiety, and depression.
-          </h6>
-          <p>
-            Here are a few tips for maintaining positive mental health when life
-            feels out of control.
-          </p>
+          <h6>{SubHeading1}</h6>
+          <p>{parah1}</p>
           <div>
             <ul>
-              <li>
-                Focus on your own sense of purpose. Consider all the positives
-                in your life. Consider creating a simple daily ritual: Brew a
-                cup of tea or make some hot chocolate, sit in a favorite chair
-                snuggled in a cozy blanket, and spend some time mindfully
-                writing in a journal, reflecting on why you do what you do every
-                day.
-              </li>
-              <li>
-                Carry a focus object that represents this meaning. Select a
-                small object or picture, and carry it with you. When you catch
-                yourself feeling anxious, sad, or caught up in all that is
-                wrong, pull yourself out of it by studying how it looks, what it
-                feels like in your hands, and how it sounds or smells if that’s
-                applicable.
-              </li>
-              <li>
-                Separate yourself from your anxiety and other negative thoughts
-                and feelings. In acceptance and commitment therapy (ACT), this
-                is called defusion. When you notice that you’re caught up in
-                negative thoughts, pause and remind yourself, “I’m having the
-                thought that…” This acknowledges your thoughts in a
-                nonjudgmental way and kindly reminds you that this is a thought
-                rather than an absolute truth.
-              </li>
-              These tips can’t change things that are beyond our control, but
-              they can help you maintain a sense of centeredness for your mental
-              health.
+              <li>{parah1List1}</li>
+              <li>{parah1List2}</li>
+              <li>{parah1List3}</li>
             </ul>
           </div>
+          <br></br>
+          <h1>{MainHeading2} </h1>
+          <br></br>
+          <div className="blog-layout-img">
+            <img src={imgSrc2} alt={imgAlt2} />
+          </div>
+          <h6>{SubHeading2}</h6>
+          <br></br>
+          <ul>
+            <li>{parah2List1}</li>
+            <li>{parah2List2}</li>
+            <li>{parah2List3}</li>
+            <li>{parah2List4}</li>
+            <li>{parah2List5}</li>
+            <li>{parah2List6}</li>
+            <li>{parah2List7}</li>
+            <li>{parah2List8}</li>
+            <li>{parah2List9}</li>
+            <li>{parah2List10} </li>
+          </ul>
         </div>
       </div>
       <Footer />
