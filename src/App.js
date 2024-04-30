@@ -3,6 +3,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./pages/Main";
 import About from "./pages/About";
+import Blogs from "./pages/Blogs";
 import Blog1 from "./pages/Blog1";
 import Blog2 from "./pages/Blog2";
 import Blog3 from "./pages/Blog3";
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />}></Route>
           <Route path="about" element={<About />}></Route>
+          <Route path="blogs" element={<Blogs />}></Route>
           <Route path="blog1" element={<Blog1 />}></Route>
           <Route path="blog2" element={<Blog2 />}></Route>
           <Route path="blog3" element={<Blog3 />}></Route>

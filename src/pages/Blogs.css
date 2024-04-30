@@ -1,0 +1,9 @@
+.blogs-heading {
+  width: 100%;
+  padding: 50px 20px 20px;
+}
+.blogs-heading h1 {
+  text-align: center;
+  padding-left: 20px;
+  text-decoration: underline;
+}

@@ -6,6 +6,7 @@ import {
   FaTwitter,
   FaLinkedinIn,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -16,10 +17,16 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-links">
           <h1>Menu</h1>
-          <h3>Hero</h3>
-          <h3>Section1</h3>
-          <h3>Section2</h3>
-          <h3>Section3</h3>
+          <Link to="/">
+            <h3>Home</h3>
+          </Link>
+          <Link to="/about">
+            <h3>About</h3>
+          </Link>
+          <Link to="/blogs">
+            <h3>Blogs</h3>
+          </Link>
+          <h3></h3>
         </div>
         <div className="footer-contact">
           <h1>Get In Touch</h1>
